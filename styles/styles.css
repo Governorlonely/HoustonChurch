@@ -2555,10 +2555,11 @@ var(--primary-green);
   .nav-list.active { right: 0; }
 
   .nav-link {
-    font-size: 24px;
+    display: flex;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 800;
-    justify-content: center;
+    text-align: center;
   }
 
   /* Кнопки Join/Save внутри меню */
